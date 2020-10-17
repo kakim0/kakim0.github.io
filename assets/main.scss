@@ -8,3 +8,20 @@
 @import "minimal-mistakes"; // main partials
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 
+html {
+  font-size: 10px; // change to whatever
+
+  @include breakpoint($medium) {
+    font-size: 12px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 14px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 16px; // change to whatever
+  }
+  
+   -webkit-text-size-adjust: 100%;
+}

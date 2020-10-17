@@ -1,0 +1,24 @@
+# main links
+main:
+  - title: "Home"
+    url: /  
+  - title: "Category"
+    url: /categories/    
+  - title: "About"
+    url: /about/    
+  - title: "GitHub"
+    url: https://github.com/kakim0/
+
+
+sidebar:
+  - title: Git
+    url: /categories/git
+    children: 
+      - title: "1. Git 시작하기"
+        url: /git/Git-1/
+
+  - title: A/B Test
+    url: /categories/ab test
+    children: 
+      - title: "1. A/B 테스트란"
+        url: /ab test/AB_Test-1/

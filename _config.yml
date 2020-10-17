@@ -93,7 +93,7 @@ analytics:
 # Site Author
 author:
   name             : "kakim"
-  avatar           : "/assets/images/bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "This and That"
   location         : "South Korea"
   email            : 

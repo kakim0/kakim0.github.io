@@ -14,8 +14,10 @@ sidebar:
   - title: Git
     url: /categories/git
     children: 
-      - title: "1. Git 시작하기"
+      - title: "1. Git 이해하기"
         url: /git/Git-1/
+      - title: "2. Git 시작하기"
+        url: /git/Git-2/
 
   - title: A/B Test
     url: /categories/ab test

@@ -1,13 +1,14 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
 
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/default"; // {{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 // @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 
 
 html {

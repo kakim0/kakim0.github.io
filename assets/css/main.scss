@@ -35,7 +35,13 @@ html {
     // font-size: 17px;
 }
 
-
+.author__urls {
+	li {
+    	font-size: 12px;
+		// line-height: 1.5;
+  	}	
+}
+	
 .masthead {
 	&__inner-wrap {
 		font-size: 18px;
@@ -62,3 +68,6 @@ html {
   	}
 	-webkit-text-size-adjust: 100%;
 }
+
+
+

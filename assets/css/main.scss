@@ -23,7 +23,7 @@ html {
   @include breakpoint($x-large) {
     font-size: 16px; // change to whatever
     //width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width - 200px;
+    padding-right: 0px;
   }
   // -webkit-text-size-adjust: 70%;
 }

@@ -7,11 +7,11 @@
 @import "minimal-mistakes/skins/default"; // {{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 // @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic);
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic");
 
 
 html {
-  font-size: 112px; // change to whatever
+  font-size: 12px; // change to whatever
 
   @include breakpoint($medium) {
     font-size: 14px; // change to whatever

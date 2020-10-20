@@ -8,8 +8,6 @@
 @import "minimal-mistakes/skins/default"; // {{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 // @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
-
 
 html {
   font-size: 12px; // change to whatever
@@ -24,7 +22,8 @@ html {
 
   @include breakpoint($x-large) {
     font-size: 16px; // change to whatever
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width - 200px;
   }
-  
   // -webkit-text-size-adjust: 70%;
 }

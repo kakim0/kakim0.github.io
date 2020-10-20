@@ -10,29 +10,31 @@
 // @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 
 html {
-  font-size: 12px; // change to whatever
+	
+	font-size: 12px; // change to whatever
 
-  @include breakpoint($medium) {
-    font-size: 14px; // change to whatever
-  }
+	@include breakpoint($medium) {
+		font-size: 14px; // change to whatever
+	}
 
-  @include breakpoint($large) {
-    font-size: 14px; // change to whatever
-  }
+	@include breakpoint($large) {
+		font-size: 14px; // change to whatever
+	}
 
-  @include breakpoint($x-large) {
-    font-size: 16px; // change to whatever
-    
-  }
-  // -webkit-text-size-adjust: 70%;
+	@include breakpoint($x-large) {
+		font-size: 16px; // change to whatever
+	}
+	-webkit-text-size-adjust: 100%;
 }
+
 
 // list title link remove underline (text-decoration)
 .archive a {
     color: inherit;
     text-decoration: none;
-	font-size: 17px;
+    // font-size: 17px;
 }
+
 
 .masthead {
 	&__inner-wrap {
@@ -41,16 +43,22 @@ html {
 	}
 }
 
+
 .sidebar {
+	@include breakpoint($x-large) {
+    	width: calc(#{$right-sidebar-width} - 1em);
+	}
+
 	span {
 		font-size: 18px;
-		line-height: 1.8;	
+		line-height: 2;	
 	}
+
  	p,
 	li {
 		// font-family: $sans-serif;
     	font-size: 14px;
-		line-height: 1.8;
+		line-height: 1.5;
   	}
-  
+	-webkit-text-size-adjust: 100%;
 }

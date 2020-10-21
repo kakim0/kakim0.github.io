@@ -24,3 +24,6 @@ sidebar:
     children: 
       - title: "1. A/B 테스트란"
         url: /ab test/AB_Test-1/
+      - title: "2. A/B 테스트 실험 설계"
+        url: /ab test/AB_Test-2/
+        

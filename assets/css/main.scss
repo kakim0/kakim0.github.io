@@ -41,12 +41,9 @@ html {
 	}
 }
 
-.initial-content {
-	main{
-		margin-left: calc(#{$right-sidebar-width} * 10%);
-		margin-right: calc(#{$right-sidebar-width} * 10%);
-		
-	}
+#main{
+	margin-left: calc(#{$right-sidebar-width} * 10%);
+	margin-right: calc(#{$right-sidebar-width} * 10%);
 }
 
 

@@ -42,7 +42,7 @@ html {
 }
 
 .initial-content {
-	#main{
+	main{
 		margin-left: calc(#{$right-sidebar-width} * 10%);
 		margin-right: calc(#{$right-sidebar-width} * 10%);
 		

@@ -26,11 +26,6 @@ html {
 	-webkit-text-size-adjust: 100%;
 }
 
-.main {
-    // @include clearfix;
-    margin: 100px;
-    max-width: 100%;
-}
 
 // list title link remove underline (text-decoration)
 .archive a {
@@ -45,6 +40,15 @@ html {
 		font-weight: bold;
 	}
 }
+
+.initial-content {
+	#main{
+		margin-left: calc(#{$right-sidebar-width} * 10%);
+		margin-right: calc(#{$right-sidebar-width} * 10%);
+		
+	}
+}
+
 
 .sidebar .author__name {
 	font-size: 20px;
@@ -78,4 +82,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 }
 
-
+.page {
+	with: calc(#{$right-sidebar-width} * 80%)
+	padding-right: calc(#{$right-sidebar-width} * 5%);
+}

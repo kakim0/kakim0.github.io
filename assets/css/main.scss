@@ -93,8 +93,6 @@ html {
 	-webkit-text-size-adjust: 100%;
 }
 
-.sidebar {
-	&__right sticky {
-		width: calc(300px - 3em);
-	}
+.sidebar__right {
+	width: calc(300px - 3em);
 }

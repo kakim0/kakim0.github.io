@@ -80,6 +80,6 @@ html {
 }
 
 .page {
-	with: calc(#{$right-sidebar-width} * 80%)
+	with: calc(#{$right-sidebar-width} * 80%);
 	padding-right: calc(#{$right-sidebar-width} * 5%);
 }

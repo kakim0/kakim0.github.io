@@ -26,7 +26,11 @@ html {
 	-webkit-text-size-adjust: 100%;
 }
 
-
+.breadcrumbs {
+    // @include clearfix;
+    margin: 100px;
+    max-width: 100%;
+}
 // list title link remove underline (text-decoration)
 .archive a {
     color: inherit;

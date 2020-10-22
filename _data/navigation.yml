@@ -26,4 +26,6 @@ sidebar:
         url: /ab test/AB_Test-1/
       - title: "2. A/B 테스트 실험 설계"
         url: /ab test/AB_Test-2/
+      - title: "3. A/B 테스트 평가"
+        url: /ab test/AB_Test-3/
         

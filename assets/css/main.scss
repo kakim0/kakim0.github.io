@@ -41,9 +41,9 @@ html {
 	}
 }
 
-.initial-content #main{
-	margin-left: calc(#{$max-width} * 10%);
-	margin-right: calc(#{$max-width} * 10%);
+#main{
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 
@@ -80,6 +80,6 @@ html {
 }
 
 .page {
-	with: calc(#{$max-width} * 80%);
-	padding-right: calc(#{$max-width} * 5%);
+	with: 80%;
+	padding-right: 5%;
 }
